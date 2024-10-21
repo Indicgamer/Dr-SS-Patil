@@ -7,37 +7,77 @@
     <title>Swami vivekananda hospital</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body>
-    <div class="img bg-red-600 flex px-5 py-4 items-center">
-      <img width="50" height="50" src="img/80592._UX200_CR0,27,200,200_.webp" class="rounded-3xl"  alt=""/>
-      <h1 class="text-center flex-1 text-2xl poppins-regular">Swami vivekananda hospital</h1>
-      <div>
-        <p class="montserrat">For appointments</p>
-        <div class="flex gap-1">
+  <body class="bg-[#FEFAE0]">
+    <div class="img bg-[#DDA15E] flex px-4 sm:px-8 py-4 items-center">
+      <img width="50" height="50" src="img/80592._UX200_CR0,27,200,200_.webp" class="rounded-3xl"  alt="logo"/>
+      <h1 class="text-center flex-1 text-lg sm:text-2xl md:text-3xl poppins-regular font-semibold ">Swami Vivekananda Hospital</h1>
+      <div class="max-md:hidden">
+        <p class="montserrat font-semibold m">For appointments</p>
+        <div class="flex gap-1 justify-center">
             <img src="img/telephone-call.png" alt="telephone-call-png" width="25">
-            <p >+9112345678</p>
+            <p class="montserrat font-semibold  ">+9112345678</p>
         </div>
-        
+      </div>
+      <div class="cursor-pointer md:hidden" id="hamburgerMenu">
+        <img src="img/hamburger.png" alt="hamburger menu icon" width="25">
       </div>
       
     </div>
-    <nav class="navbar bg-purple-300 p-4">
-      <ul class="flex  gap-3">
-        <li><a href="index.html" class="text-lg">Home</a></li>
-        <li><a href="about.html" class="text-lg">About us</a></li>
-        <li><a href="products.html" class="text-lg">Services</a></li>
-        <li><a href="contact.html" class="text-lg">Contact us </a></li>
-      </ul>
+    <nav class="navbar bg-[#BC6C25] px-8 py-5 max-md:hidden">
+      <div>
+        <ul class="flex  gap-5 ">
+          <li><a href="index.html" class="text-lg montserrat  font-semibold">Home</a></li>
+          <li><a href="#About-us" class="text-lg montserrat font-semibold ">About us</a></li>
+          <li><a href="products.html" class="text-lg montserrat font-semibold">Services</a></li>
+          <li><a href="contact.html" class="text-lg montserrat font-semibold">Contact us </a></li>
+          <li><a href="contact.html" class="text-lg montserrat font-semibold">Reviews</a></li>
+        </ul>
+      </div>
     </nav>
+    <div class="hidden md:hidden px-8 py-5  bg-[#BC6C25]" id="verticalNav">
+      <ul class="">
+        <li><a href="index.html" class="text-lg montserrat  font-semibold">Home</a></li>
+        <li><a href="#About-us" class="text-lg montserrat font-semibold ">About us</a></li>
+        <li><a href="products.html" class="text-lg montserrat font-semibold">Services</a></li>
+        <li><a href="contact.html" class="text-lg montserrat font-semibold">Contact us </a></li>
+        <li><a href="contact.html" class="text-lg montserrat font-semibold">Reviews</a></li>
+      </ul>
+      <div class="mt-2 flex justify-between items-center ">
+        <div class="flex gap-1 rounded-full bg-[#FEFAE0] border-4 px-2 py-1 border-black border-solid">
+          <img src="img/telephone-call.png" alt="telephone-call-png" width="25">
+          <p class="montserrat font-semibold">+9112345678</p>
+        </div>
+      </div>
+    </div>
 
-    <main>
-      <h3>This is the Home page</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus
-        eveniet recusandae dicta similique numquam voluptas quos tempore
-        cupiditate pariatur, laudantium fugit alias quia veritatis nesciunt
-        quaerat molestias adipisci assumenda.
-      </p>
-    </main>
+    <!-- <section id="About-us" class="p-10 bg-[#FEFAE0] ">
+        <div class="flex gap-14 ">
+            <div class="flex-1 flex flex-col gap-10 p-5">
+                <div class="flex flex-col gap-1">
+                    <h1 class="text-3xl poppins-regular text-[#283618]">Welcome to <span class="text-6xl leading-normal font-semibold text-[#283618]">Swami Vivekananda</span> </h1>
+                    <h1 class="text-4xl poppins-regular font-semibold w-fit self-center text-[#283618]">Homepathic Clinic and Research Center </h1>
+                </div>
+                <p class="text-lg poppins-regular text-[#283618]">We are a team of experienced doctors and staff who are dedicated to providing the best possible care for our patients. Our clinic is equipped with the latest technology and equipment to ensure that our patients receive the highest quality care. We offer a wide range of services, including homeopathic treatment, research, and education. Our goal is to help our patients achieve optimal health and well-being through natural, safe, and effective treatments. We look forward to welcoming you to our clinic and helping you on your journey to better health.</p>
+               
+            </div>
+            <div class="flex justify-center">
+                <img src="img/MainPic.jpg" alt="">
+    
+            </div>
+        
+        </div>
+        
+        
+    </section> -->
   </body>
 </html>
+
+
+<script>
+  const hamburgerMenu = document.getElementById('hamburgerMenu');
+  const verticalNav = document.getElementById('verticalNav');
+  hamburgerMenu.addEventListener('click',()=>{
+    verticalNav.classList.toggle('hidden');
+  })
+
+</script>
