@@ -5,6 +5,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
 @layer components{
   .dancing-script{
     font-family: "Dancing Script", cursive;

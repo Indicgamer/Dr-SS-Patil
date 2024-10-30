@@ -4,39 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swami vivekananda hospital</title>
+    <title>Swami vivekanand Homeo Clinic & Research Center</title>
     <link rel="stylesheet" href="output.css" />
   </head>
   <body>
     <div class="img bg-[#DDA15E] flex px-4 sm:px-8 py-4 items-center">
       <img
-        width="50"
-        height="50"
         src="src/img/swami vivekananda.webp"
-        class="rounded-3xl"
+        class="rounded-3xl w-[40px] h-[40px] md:w-[50px] md:h-[50px]"
         alt="logo"
       />
       <h1
-        class="text-center flex-1 text-lg sm:text-2xl md:text-3xl poppins-regular font-semibold"
+        class="text-center flex-1 max-md:mx-5 text-lg md:text-xl lg:text-2xl lg:leading-none xl:text-3xl xl:leading-none poppins-regular leading-none"
       >
-        Swami Vivekananda Hospital
+        Swami vivekanand Homeo Clinic & Research Center
       </h1>
-      <div class="max-md:hidden">
-        <p class="montserrat font-semibold m">For appointments</p>
-        <div class="flex gap-1 justify-center items-center">
-          <img
-            src="img/telephone-call.png"
-            alt="telephone-call-png"
-            width="25"
-          />
-          <p class="montserrat font-semibold">+9112345678</p>
+      <div
+        class="max-lg:hidden border-4 border-solid border-black rounded-full"
+      >
+        <div class="flex py-1 justify-center">
+          <p
+            class="montserrat-regular max-xl:text-sm max-xl:leading-none leading-none"
+          >
+            For appointments
+          </p>
         </div>
+
+        <hr class="border-black border-2" />
+        <div class="flex gap-1 ">
+          <div
+            class="px-2 py-1 flex gap-1 items-center border-r-4 border-solid border-black"
+          >
+            <img
+              src="img/telephone-call.png"
+              alt="telephone-call-png"
+              class="w-[18px]"
+            />
+            <a
+              class="montserrat-regular max-xl:text-sm max-xl:leading-none leading-none" href="tel:+917676347701"
+            >
+              +917676347701
+            </a>
+          </div>
+
+          <!-- 08472-232323,08472-256789 -->
+          <!-- emergency only doctorNo 9448856789 -->
+          <div class="pr-2 flex items-center py-1  ">
+            <a
+              class="montserrat-regular max-xl:text-sm max-xl:leading-none leading-none" href="tel:+917676347701"
+            >
+              08472-232323
+          </a>
+          </div>
+        </div>
+        <div></div>
       </div>
-      <div class="cursor-pointer md:hidden" id="hamburgerMenu">
+      <div class="cursor-pointer lg:hidden" id="hamburgerMenu">
         <img src="img/hamburger.png" alt="hamburger menu icon" width="25" />
       </div>
     </div>
-    <nav class="navbar bg-[#BC6C25] px-8 py-5 max-md:hidden">
+    <nav class="navbar bg-[#BC6C25] px-8 py-5 max-lg:hidden">
       <div>
         <ul class="flex gap-5">
           <li><a href="#" class="text-lg montserrat font-semibold">Home</a></li>
@@ -63,7 +90,7 @@
         </ul>
       </div>
     </nav>
-    <div class="hidden md:hidden px-8 py-5 bg-[#BC6C25]" id="verticalNav">
+    <div class="hidden  px-8 py-5 bg-[#BC6C25]" id="verticalNav">
       <ul class="">
         <li><a href="#" class="montserrat font-semibold">Home</a></li>
         <li>
@@ -77,14 +104,22 @@
       </ul>
       <div class="mt-2 flex justify-between items-center">
         <div
-          class="flex gap-1 rounded-full bg-[#FEFAE0] border-4 px-2 py-1 border-black border-solid items-center"
+          class="flex items-center rounded-full bg-[#FEFAE0] border-4  border-black border-solid "
         >
+        <div class="flex gap-1 items-center px-2 border-r-4 border-black border-solid">
           <img
             src="img/telephone-call.png"
             alt="telephone-call-png"
-            width="25"
+            width="23"
           />
-          <p class="montserrat font-semibold text-sm">+9112345678</p>
+          <p class="montserrat font-semibold text-sm">+917676347701</p>
+        </div>
+        <div class="px-2">
+          <p class="montserrat font-semibold text-sm">08472-232323</p>
+
+        </div>
+          
+          
         </div>
       </div>
     </div>
@@ -97,7 +132,7 @@
               Welcome to
               <span
                 class="text-2xl sm:text-4xl font-semibold leading-normal montserrat"
-                >Swami Vivekananda</span
+                >Swami Vivekanand</span
               >
             </h1>
             <h1
@@ -113,14 +148,14 @@
             principles of the science and art of Homoeopathy.
           </p>
           <p class="poppins-regular text-lg text-justify">
-            He is called the Father of Experimental Pharmacology because he was the first
-            physician to prepare medicines in a specialized way; proving them on
-            healthy human beings, to determine how the medicines acted to cure
-            diseases. Before Hahnemann, medicines were given on speculative
-            indications, mainly on the basis of authority without experimental
-            verification. By preparing the medicines through potentization, the
-            inert and insoluble substances became soluble in alcohol or water
-            and were charged with medicinal force.
+            He is called the Father of Experimental Pharmacology because he was
+            the first physician to prepare medicines in a specialized way;
+            proving them on healthy human beings, to determine how the medicines
+            acted to cure diseases. Before Hahnemann, medicines were given on
+            speculative indications, mainly on the basis of authority without
+            experimental verification. By preparing the medicines through
+            potentization, the inert and insoluble substances became soluble in
+            alcohol or water and were charged with medicinal force.
           </p>
         </div>
         <div class="flex justify-center">
@@ -130,27 +165,27 @@
     </section>
 
     <section id="Doctor" class="p-3 sm:p-5 bg-[#FEFAE0]">
-      <div class="p-5 sm:p-8 flex flex-col md:flex-row gap-10">
-        <div class="flex-1 flex flex-col gap-10">
-          <h1 class="text-3xl sm:text-3xl md:text-5xl text-[#BC6C25] font-bold">
+      <div class="py-5 flex flex-col md:flex-row gap-5 xl:gap-10">
+        <div class="flex-1 ">
+          <h1 class=" lg:text-3xl xl:text-5xl xl:leading-none text-[#BC6C25] font-bold">
             Meet our Doctor
           </h1>
-          <div>
+          <div class="mt-8">
             <h1
-              class="text-4xl sm:text-4xl md:text-6xl dancing-script text-[#BC6C25] font-bold"
+              class=" lg:text-4xl xl:text-6xl xl:leading-none dancing-script text-[#BC6C25] font-bold"
             >
               Dr S.S Patil
             </h1>
-            <p class="text-lg montserrat text-[#BC6C25] font-bold">
+            <p class="xl:text-lg xl:leading-none montserrat text-[#BC6C25] font-bold">
               M.D. (Hom.) M'lore
             </p>
           </div>
-          <p class="poppins-regular text-justify text-lg">
-           Christian Friedrich Samuel Hahnemann was a German physician, best
+          <p class="poppins-regular text-justify xl:text-lg  mt-8">
+            Christian Friedrich Samuel Hahnemann was a German physician, best
             known for creating the pseudoscientific system of alternative
             medicine called Homoeopathy. He established the fundamental
-            principles of the science and art of Homoeopathy.
-            He is called the Father of Experimental Pharmacology because he was the first
+            principles of the science and art of Homoeopathy. He is called the
+            Father of Experimental Pharmacology because he was the first
             physician to prepare medicines in a specialized way; proving them on
             healthy human beings, to determine how the medicines acted to cure
             diseases. Before Hahnemann, medicines were given on speculative
@@ -160,7 +195,7 @@
             and were charged with medicinal force.
           </p>
         </div>
-        <div class="flex flex-1 justify-center">
+        <div class="flex flex-1  min-w-[300px] justify-center">
           <img src="img/MainPic.jpg" alt="MainPic" />
         </div>
       </div>
@@ -172,9 +207,11 @@
     >
       <div class="p-5 sm:px-8 sm:py-14 bg-[#283618]">
         <div
-          class="flex items-stretch flex-col  md:flex-row  md:px-6 lg:px-12 xl:px-20 w-full"
+          class="flex items-stretch flex-col md:px-6 lg:px-12 xl:px-20 w-full"
         >
-          <div class="flex flex-1 py-5 flex-col items-center md:border-4 md:border-[#FEFAE0] md:border-solid">
+          <div
+            class="flex flex-1 py-5 flex-col items-center md:border-4 md:border-[#FEFAE0] md:border-solid"
+          >
             <div>
               <img
                 src="src/img/excellence.png"
@@ -186,7 +223,7 @@
               <p
                 class="max-md:text-4xl md:text-3xl lg:text-5xl xl:text-6xl poppins-bold text-[#FEFAE0]"
               >
-                20
+                25
               </p>
               <p
                 class="max-md:text-2xl md:text-2xl lg:text-3xl xl:text-4xl poppins-bold text-[#FEFAE0]"
@@ -200,42 +237,93 @@
               </p>
             </div>
           </div>
-          
-          <div class="flex-1 md:border-r-4 md:border-t-4 md:border-b-4 border-[#FEFAE0] border-solid  p-5 lg:px-10 flex flex-col gap-10 items-center justify-center">
-              <h1
-                class="max-md:text-3xl md:text-2xl lg:text-3xl xl:text-5xl poppins-bold text-[#FEFAE0]"
+
+          <div
+            class="flex-1 md:border-r-4 md:border-t-4 md:border-b-4 md:border-l-4 border-[#FEFAE0] border-solid p-5 lg:px-10 flex flex-col gap-10 items-center justify-center"
+          >
+            <h1
+              class="max-md:text-3xl md:text-2xl lg:text-3xl xl:text-5xl poppins-bold text-[#FEFAE0]"
+            >
+              Treatments
+            </h1>
+            <div>
+              <ul
+                class="list-disc max-md:text-2xl md:text-xl lg:text-xl xl:text-2xl poppins-regular text-[#FEFAE0] flex flex-col gap-3"
               >
-                Treatments
-              </h1>
-              <div>
-                <ul
-                  class="list-disc max-md:text-2xl md:text-xl lg:text-xl xl:text-2xl poppins-regular text-[#FEFAE0] flex flex-col gap-3"
-                >
-                  <li>Allergic Cold & Asthma</li>
-                  <li>Diabolic Diabetes</li>
-                  <li>Kidney Problem</li>
-                  <li>Cancer</li>
-                  <li>Skin Disorders & More...</li>
-                </ul>
-              </div>
+                <li>Allergic: Rhinitis, Sinusitis, Bronchitis, Asthama,</li>
+                <li>
+                  Diabetes Type 2 and its complications like neuropathy,
+                  nephropathy, diabetic food, etc. in early stages
+                </li>
+                <li>
+                  Kidney Problem: acute and chronic kidney diseases, nephritis
+                  and pylonephritis
+                </li>
+                <li>
+                  Cancers: Breast Cancer, Liver Cancer, prostate Cancer, etc.
+                </li>
+                <li>
+                  Skin Disorders: Eczema, Dermatisis, Acanthosis nigricans,
+                  acute and chronic Urticaria, all types of Psoriasis, Tenia,
+                  Acne, Vitiligo(Leucoderma), etc.
+                </li>
+                <li>
+                  Infertility: Male Infertility, Oligospermia, Erectile
+                  Dysfunction, Female Infertility, more than 12,000 couples
+                  infertility cases treated successfully. Irregular Menses,
+                  Dysmenorrhoea, Menorrhagia, Leucorrhoea, PCOD, PCOS, Overian
+                  Cysts, Fibroids, Endometriosis, etc.
+                </li>
+                <li>
+                  GIT: Acid Peptic Disorder, Gastritis, Erosive Gastritis, Lax
+                  Les, Gastroesophageal Reflux Disease, Irritable Bowel
+                  Syndrome, Ulcerative Colitis, Crohn's Disease, Solitary Rectal
+                  Ulcer Syndrome, Peptic Ulcers, Colitis, Cholecystitis, Gall
+                  Bladder Stones, Pancreatitis, etc. Treated thousands of cases
+                  successfully.
+                </li>
+                <li>
+                  Cervical, Thoraic and Lumbar sponsylosis, Disc Prolapse,
+                  Sciatica, Osteoarthritis, Rheumatoid Arthritis, Gout,
+                  Ankylosing Spondylitis, Psoriatic Arthritis, SLE, Myositis,
+                  Seronegative Arthritis and Seropositive Polyarthritis,
+                </li>
+                <li>
+                  Hair Problems: Alopecia Areata, Androgenic Alopecia, Telogen
+                  Effluvium, Trichotillomania, Alopecia Totallis, Alopecia
+                  Universalis, etc
+                </li>
+                <li>
+                  Cardiac Problems: Hypertension, Ischemic Heart Disease,
+                  Cardiomyopathy, Valvular Heart Disease, Arrhythmias, etc.
+                </li>
+                <li>
+                  Urinary Tract: Urinary Tract Infections, Cystitis, Urethritis,
+                  Prostatitis, Benign Prostatic Hyperplasia, Renal Calculi, etc.
+                </li>
+              </ul>
             </div>
-          
-          
-        
+          </div>
         </div>
 
-
         <div class="text-creamy md:px-6 lg:px-12 xl:px-20 w-full">
-          <div class=" md:border-b-4 md:border-r-4 md:border-l-4 border-[#FEFAE0] border-solid w-full p-8 flex flex-col gap-8 items-center">
-            <h1 class="max-md:text-xl md:text-2xl lg:text-3xl xl:text-4xl poppins-bold">Awards and Achievements</h1>
-            <ol class=" max-md:text-2xl md:text-xl lg:text-xl xl:text-2xl poppins-regular list-decimal flex flex-col gap-3">
+          <div
+            class="md:border-b-4 md:border-r-4 md:border-l-4 border-[#FEFAE0] border-solid w-full p-8 flex flex-col gap-8 items-center"
+          >
+            <h1
+              class="max-md:text-xl md:text-2xl lg:text-3xl xl:text-4xl poppins-bold"
+            >
+              Awards and Achievements
+            </h1>
+            <ol
+              class="max-md:text-2xl md:text-xl lg:text-xl xl:text-2xl poppins-regular list-decimal flex flex-col gap-3"
+            >
               <li>Award 1</li>
               <li>Award 2</li>
               <li>Award 3</li>
               <li>Award 4</li>
             </ol>
           </div>
-         
         </div>
       </div>
     </section>
@@ -257,7 +345,7 @@
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
             >
-              Award 1
+              Felicitated for serving in homeopathic system
             </p>
           </div>
           <div class="lg:max-h-[600px] hover:scale-105">
@@ -265,13 +353,16 @@
               <img
                 src="src/img/Award2.jpg"
                 alt="award 2 png"
-                class="object-cover lg:h-[510px] lg:w-[100%]"
+                class="object-cover lg:w-[100%]"
               />
             </div>
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
             >
-              Award 2
+              Recieving Momento for presentation in
+              <i>
+                Akhila bharatha Kannada Sahitya Sammelan in Kalaburagi on health
+              </i>
             </p>
           </div>
           <div class="lg:max-h-[600px] hover:scale-105">
@@ -285,7 +376,8 @@
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
             >
-              Award 3
+              Felicitated after presentation of scientific paper in
+              International Ayush Conference, Dubai.
             </p>
           </div>
           <div class="lg:max-h-[600px] hover:scale-105">
@@ -299,7 +391,10 @@
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
             >
-              Award 4
+              Arranged a National Homeopathic Conference in Kalaburagi as a
+              organising Chairman by Swami Vivekanand Homeo Pharma , Kalaburagi
+              in association with HKE's Homeopathic Medical College, Kalaburagi
+              in 2023 Dec.
             </p>
           </div>
         </div>
@@ -327,7 +422,7 @@
                 </p>
               </div>
             </div>
-            <div class="hover:scale-105 cursor-pointer image">
+            <div class="hover:scale-105 relative cursor-pointer image">
               <img
                 src="src/img/GalleryImg2.jpg"
                 alt="gallery img 2"
@@ -337,11 +432,12 @@
                 <p
                   class="text-[#FEFAE0] poppins-regular font-semibold absolute w-full h-full opacity-0 top-0 left-0 p-3 bg-black hover:opacity-80 flex justify-center items-center"
                 >
-                  Image 2
+                  Addressing to Members after electing as Kalaburagi District
+                  president of Karnataka Rajya Vignyan Parishat
                 </p>
               </div>
             </div>
-            <div class="hover:scale-105 cursor-pointer image">
+            <div class="hover:scale-105 relative cursor-pointer image">
               <img
                 src="src/img/GalleryImg3.jpg"
                 alt="gallery img 3"
@@ -357,24 +453,10 @@
             </div>
           </div>
           <div class="col2 flex flex-col gap-5">
-            <div class="hover:scale-105 cursor-pointer image">
+            <div class="hover:scale-105 relative cursor-pointer image">
               <img
                 src="src/img/GalleryImg4.jpg"
                 alt="gallery img 4"
-                class="w-full h-full object-cover"
-              />
-              <div>
-                <p
-                  class="text-[#FEFAE0] poppins-regular font-semibold absolute w-full h-full opacity-0 top-0 left-0 p-3 bg-black hover:opacity-80 flex justify-center items-center"
-                >
-                  Image 3
-                </p>
-              </div>
-            </div>
-            <div class="hover:scale-105 cursor-pointer image">
-              <img
-                src="src/img/GalleryImg5.jpg"
-                alt="gallery img 5"
                 class="w-full h-full object-cover"
               />
               <div>
@@ -385,10 +467,10 @@
                 </p>
               </div>
             </div>
-            <div class="hover:scale-105 cursor-pointer image">
+            <div class="hover:scale-105 relative cursor-pointer image">
               <img
-                src="src/img/GalleryImg6.jpg"
-                alt="gallery img 6"
+                src="src/img/GalleryImg5.jpg"
+                alt="gallery img 5"
                 class="w-full h-full object-cover"
               />
               <div>
@@ -399,9 +481,24 @@
                 </p>
               </div>
             </div>
+            <div class="hover:scale-105 relative cursor-pointer image">
+              <img
+                src="src/img/GalleryImg6.jpg"
+                alt="gallery img 6"
+                class="w-full h-full object-cover"
+              />
+              <div>
+                <p
+                  class="text-[#FEFAE0] poppins-regular font-semibold absolute w-full h-full opacity-0 top-0 left-0 p-3 bg-black hover:opacity-80 flex justify-center items-center"
+                >
+                  Written Kannada poets name on 1000 treesin our mookambike farm
+                  house Sirnur, Kalaburagi
+                </p>
+              </div>
+            </div>
           </div>
           <div class="col3 flex flex-col gap-5">
-            <div class="hover:scale-105 cursor-pointer image">
+            <div class="hover:scale-105 relative cursor-pointer image">
               <img
                 src="src/img/GalleryImg7.jpg"
                 alt="gallery img 7"
@@ -411,11 +508,11 @@
                 <p
                   class="text-[#FEFAE0] poppins-regular font-semibold absolute w-full h-full opacity-0 top-0 left-0 p-3 bg-black hover:opacity-80 flex justify-center items-center"
                 >
-                  Image 6
+                  Image 7
                 </p>
               </div>
             </div>
-            <div class="hover:scale-105 cursor-pointer image">
+            <div class="hover:scale-105 relative cursor-pointer image">
               <img
                 src="src/img/GalleryImg8.jpg"
                 alt="gallery img 8"
@@ -425,18 +522,11 @@
                 <p
                   class="text-[#FEFAE0] poppins-regular font-semibold absolute w-full h-full opacity-0 top-0 left-0 p-3 bg-black hover:opacity-80 flex justify-center items-center"
                 >
-                  Image 7
-                </p>
-              </div>
-              <div>
-                <p
-                  class="text-[#FEFAE0] poppins-regular font-semibold absolute w-full h-full opacity-0 top-0 left-0 p-3 bg-black hover:opacity-80 flex justify-center items-center"
-                >
                   Image 8
                 </p>
               </div>
             </div>
-            <div class="hover:scale-105 cursor-pointer image">
+            <div class="hover:scale-105 relative cursor-pointer image">
               <img
                 src="src/img/GalleryImg9.jpg"
                 alt="gallery img 9"
@@ -446,7 +536,9 @@
                 <p
                   class="text-[#FEFAE0] poppins-regular font-semibold absolute w-full h-full opacity-0 top-0 left-0 p-3 bg-black hover:opacity-80 flex justify-center items-center"
                 >
-                  Image 9
+                  Presented Scientific Paper on Homeopathic treatment in Auto
+                  Immune Diseases at International Conference of Ayush, Dubai in
+                  2024 Jan.
                 </p>
               </div>
             </div>
@@ -620,7 +712,20 @@
             <h1
               class="sm:text-xl md:text-xl lg:text-2xl poppins-regular font-semibold"
             >
-              Swami Vivekananda Homeopathic Clinic and Research Center
+              Swami Vivekanand Homeopathic Clinic and Research Center
+            </h1>
+          </div>
+        </div>
+        <div class="flex gap-3 justify-center">
+          <img
+            src="src/img/swami vivekananda.webp"
+            class="rounded-3xl self-start w-[40px]"
+          />
+          <div>
+            <h1
+              class="sm:text-xl md:text-xl lg:text-2xl poppins-regular font-semibold"
+            >
+              Swami Vivekanand Homeo pharma
             </h1>
           </div>
         </div>
@@ -636,7 +741,9 @@
           </div>
           <div class="flex gap-2 items-center">
             <img src="src/img/mail.png" alt="email-png" class="w-[25px]" />
-            <p class="montserrat font-semibold max-sm:text-sm">xyz@gmail.com</p>
+            <p class="montserrat font-semibold max-sm:text-sm">
+              dr.sspatilhompath@gmail.com
+            </p>
           </div>
           <div class="flex gap-2 items-center">
             <img
