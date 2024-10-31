@@ -66,7 +66,7 @@
     <nav class="navbar bg-[#BC6C25] px-8 py-5 max-lg:hidden">
       <div>
         <ul class="flex gap-5">
-          <li><a href="#" class="text-lg montserrat font-semibold">Home</a></li>
+          
           <li>
             <a href="#About-us" class="text-lg montserrat font-semibold"
               >About us</a
@@ -78,12 +78,18 @@
             >
           </li>
           <li>
+            <a href="#pharmacy" class="text-lg montserrat font-semibold"
+              >Pharmacy</a
+            >
+          </li>
+          <li>
             <a href="#contact-us" class="text-lg montserrat font-semibold"
               >Contact us
             </a>
           </li>
+          
           <li>
-            <a href="#reviews" class="text-lg montserrat font-semibold"
+            <a href="#pharmacy" class="text-lg montserrat font-semibold"
               >Reviews</a
             >
           </li>
@@ -92,21 +98,24 @@
     </nav>
     <div class="hidden  px-8 py-5 bg-[#BC6C25]" id="verticalNav">
       <ul class="">
-        <li><a href="#" class="montserrat font-semibold">Home</a></li>
         <li>
           <a href="#About-us" class="montserrat font-semibold">About us</a>
         </li>
         <li><a href="#Doctor" class="montserrat font-semibold">Doctor</a></li>
         <li>
+          <a href="#pharmacy" class="montserrat font-semibold">Pharmacy</a>
+        </li>
+        <li>
           <a href="#contact-us" class="montserrat font-semibold">Contact us </a>
         </li>
+        
         <li><a href="#reviews" class="montserrat font-semibold">Reviews</a></li>
       </ul>
       <div class="mt-2 flex justify-between items-center">
         <div
           class="flex items-center rounded-full bg-[#FEFAE0] border-4  border-black border-solid "
         >
-        <div class="flex gap-1 items-center px-2 border-r-4 border-black border-solid">
+        <div class="flex gap-1 items-center px-2 py-1 border-r-4 border-black border-solid">
           <img
             src="img/telephone-call.png"
             alt="telephone-call-png"
@@ -114,7 +123,7 @@
           />
           <p class="montserrat font-semibold text-sm">+917676347701</p>
         </div>
-        <div class="px-2">
+        <div class="px-2 py-1">
           <p class="montserrat font-semibold text-sm">08472-232323</p>
 
         </div>
@@ -125,8 +134,8 @@
     </div>
 
     <section id="About-us" class="p-3 sm:p-5 bg-[#283618]">
-      <div class="flex gap-10 flex-col xl:flex-row p-5 sm:p-8 text-[#FEFAE0]">
-        <div class="flex-1 flex flex-col gap-10">
+      <div class=" flex gap-10 flex-col lg:flex-row p-5 sm:p-8 text-[#FEFAE0] ">
+        <div class="flex-1  flex flex-col gap-10">
           <div>
             <h1 class="text-xl sm:text-3xl poppins-regular">
               Welcome to
@@ -142,41 +151,33 @@
             </h1>
           </div>
           <p class="poppins-regular text-lg text-justify">
-            Christian Friedrich Samuel Hahnemann was a German physician, best
-            known for creating the pseudoscientific system of alternative
-            medicine called Homoeopathy. He established the fundamental
-            principles of the science and art of Homoeopathy.
-          </p>
-          <p class="poppins-regular text-lg text-justify">
             He is called the Father of Experimental Pharmacology because he was
             the first physician to prepare medicines in a specialized way;
             proving them on healthy human beings, to determine how the medicines
             acted to cure diseases. Before Hahnemann, medicines were given on
             speculative indications, mainly on the basis of authority without
-            experimental verification. By preparing the medicines through
-            potentization, the inert and insoluble substances became soluble in
-            alcohol or water and were charged with medicinal force.
+            experimental verification.
           </p>
         </div>
-        <div class="flex justify-center">
-          <img src="img/MainPic.jpg" alt="MainPic" />
+        <div class="flex-1 lg:max-w-[500px] flex justify-center ">
+          <img src="src/img/hospital banner2.jpg" alt="MainPic"  class="max-lg:w-[500px]" />
         </div>
       </div>
     </section>
 
     <section id="Doctor" class="p-3 sm:p-5 bg-[#FEFAE0]">
-      <div class="py-5 flex flex-col md:flex-row gap-5 xl:gap-10">
+      <div class="p-5 lg:p-8 flex flex-col md:flex-row gap-5 xl:gap-10">
         <div class="flex-1 ">
-          <h1 class=" lg:text-3xl xl:text-5xl xl:leading-none text-[#BC6C25] font-bold">
+          <h1 class="text-4xl leading-none md:text-4xl md:leading-none lg:text-5xl lg:leading-none  xl:text-6xl xl:leading-none text-[#BC6C25] font-bold">
             Meet our Doctor
           </h1>
-          <div class="mt-8">
+          <div class="mt-14">
             <h1
-              class=" lg:text-4xl xl:text-6xl xl:leading-none dancing-script text-[#BC6C25] font-bold"
+              class="text-3xl leading-none md:text-3xl md:leading-none  lg:text-4xl lg:leading-none  xl:text-5xl xl:leading-none dancing-script text-[#BC6C25] font-bold"
             >
               Dr S.S Patil
             </h1>
-            <p class="xl:text-lg xl:leading-none montserrat text-[#BC6C25] font-bold">
+            <p class="text-lg leading-none ml-32 md:text-lg md:leading-none md:ml-32 lg:text-lg lg:leading-none lg:ml-40 xl:text-lg xl:leading-none xl:ml-52 montserrat text-[#BC6C25] font-bold">
               M.D. (Hom.) M'lore
             </p>
           </div>
@@ -195,137 +196,149 @@
             and were charged with medicinal force.
           </p>
         </div>
-        <div class="flex flex-1  min-w-[300px] justify-center">
-          <img src="img/MainPic.jpg" alt="MainPic" />
+        <div class="flex flex-1  min-w-[300px] justify-center ">
+          <img src="img/MainPic.jpg" alt="MainPic" class="justify-self-end" />
         </div>
       </div>
     </section>
 
     <section
       id="Stats"
-      class="p-3 sm:p-5 md:px-8 lg:px-15 xl:px-24 bg-[#FEFAE0]"
+      class="p-3 sm:p-5   bg-[#283618]"
     >
-      <div class="p-5 sm:px-8 sm:py-14 bg-[#283618]">
-        <div
-          class="flex items-stretch flex-col md:px-6 lg:px-12 xl:px-20 w-full"
-        >
-          <div
-            class="flex flex-1 py-5 flex-col items-center md:border-4 md:border-[#FEFAE0] md:border-solid"
+      <div class="p-5 sm:p-8 sm:py-14">
+        <div class="">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl poppins-bold text-[#FEFAE0] ">
+            Treatments
+          </h1>
+          <div class="p-5 sm:p-8">
+            <ul
+              class="list-disc  sm:text-lg md:text-xl poppins-regular text-[#FEFAE0] flex flex-col gap-3"
+            >
+              <li class="">
+                <span class="poppins-semibold text-darkbrowny text-lg sm:text-xl md:text-2xl">Allergic:  </span>
+                 Rhinitis, Sinusitis, Bronchitis, Asthama,
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny sm:text-xl md:text-2xl">Diabaetes: </span>
+                Diabetes Type 2 and its complications like neuropathy,
+                nephropathy, diabetic food, etc. in early stages
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl"> Kidney Problem: </span>Acute and chronic kidney diseases, nephritis
+                and pylonephritis
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl"> Cancers: </span>
+                Breast Cancer, Liver Cancer, prostate Cancer, etc.
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl"> Skin Disorders: </span>Eczema, Dermatisis, Acanthosis nigricans,
+                acute and chronic Urticaria, all types of Psoriasis, Tenia,
+                Acne, Vitiligo(Leucoderma), etc.
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl">Infertility: </span>
+                 Male Infertility, Oligospermia, Erectile
+                Dysfunction, Female Infertility, more than 12,000 couples
+                infertility cases treated successfully. Irregular Menses,
+                Dysmenorrhoea, Menorrhagia, Leucorrhoea, PCOD, PCOS, Overian
+                Cysts, Fibroids, Endometriosis, etc.
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl">GIT: </span>
+               Acid Peptic Disorder, Gastritis, Erosive Gastritis, Lax
+                Les, Gastroesophageal Reflux Disease, Irritable Bowel
+                Syndrome, Ulcerative Colitis, Crohn's Disease, Solitary Rectal
+                Ulcer Syndrome, Peptic Ulcers, Colitis, Cholecystitis, Gall
+                Bladder Stones, Pancreatitis, etc. Treated thousands of cases
+                successfully.
+              </li>
+              
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl">Hair Problems:  </span>
+                Hair Problems: Alopecia Areata, Androgenic Alopecia, Telogen
+                Effluvium, Trichotillomania, Alopecia Totallis, Alopecia
+                Universalis, etc
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl">Cardiac Problems: </span>
+                 Hypertension, Ischemic Heart Disease,
+                Cardiomyopathy, Valvular Heart Disease, Arrhythmias, etc.
+              </li>
+              <li>
+                <span class="poppins-semibold text-darkbrowny text-lg  sm:text-xl md:text-2xl">Urinary Tract:  </span>
+                Urinary Tract Infections, Cystitis, Urethritis,
+                Prostatitis, Benign Prostatic Hyperplasia, Renal Calculi, etc.
+              </li>
+              <li>
+                Cervical, Thoraic and Lumbar sponsylosis, Disc Prolapse,
+                Sciatica, Osteoarthritis, Rheumatoid Arthritis, Gout,
+                Ankylosing Spondylitis, Psoriatic Arthritis, SLE, Myositis,
+                Seronegative Arthritis and Seropositive Polyarthritis,
+              </li>
+            </ul>
+          </div>
+        </div>
+          <!-- <div
+            class="flex border-4 border-solid border-black flex-col gap-8 items-center "
           >
             <div>
               <img
                 src="src/img/excellence.png"
                 alt="excellence"
-                class="xl:w-[150px] lg:w-[130px] w-[100px] max-md:w-[120px]"
+                
               />
             </div>
-            <div class="text-center w-full mt-5">
+            <div class="">
               <p
-                class="max-md:text-4xl md:text-3xl lg:text-5xl xl:text-6xl poppins-bold text-[#FEFAE0]"
+                class="text-6xl text-center poppins-bold text-[#FEFAE0]"
               >
                 25
               </p>
               <p
-                class="max-md:text-2xl md:text-2xl lg:text-3xl xl:text-4xl poppins-bold text-[#FEFAE0]"
+                class="text-3xl poppins-bold text-[#FEFAE0]"
               >
-                Years
+                YEARS
+              </p>
+            </div>
+            <div>
+              <p
+                class="text-2xl montserrat-medium text-[#FEFAE0]"
+              >
+                EXPERTISE IN HOMEOPATHY
+              </p>
+            </div>
+          </div>
+          <div class="border-black border-4 border-solid flex flex-col gap-8 items-center">
+            <img src="src/img/public-health.png" alt="public-health" width="200">
+            <div>
+              <p
+                class="text-6xl poppins-bold text-[#FEFAE0]"
+              >
+                20
               </p>
               <p
-                class="max-md:text-2xl md:text-lg lg:text-2xl xl:text-2xl mt-5 montserrat-medium text-[#FEFAE0]"
+                class="text-3xl poppins-bold text-[#FEFAE0]"
               >
-                Expertise in Homeopathy
+                Thousands
               </p>
             </div>
-          </div>
-
-          <div
-            class="flex-1 md:border-r-4 md:border-t-4 md:border-b-4 md:border-l-4 border-[#FEFAE0] border-solid p-5 lg:px-10 flex flex-col gap-10 items-center justify-center"
-          >
-            <h1
-              class="max-md:text-3xl md:text-2xl lg:text-3xl xl:text-5xl poppins-bold text-[#FEFAE0]"
-            >
-              Treatments
-            </h1>
             <div>
-              <ul
-                class="list-disc max-md:text-2xl md:text-xl lg:text-xl xl:text-2xl poppins-regular text-[#FEFAE0] flex flex-col gap-3"
+              <p
+                class="text-2xl montserrat-medium text-[#FEFAE0]"
               >
-                <li>Allergic: Rhinitis, Sinusitis, Bronchitis, Asthama,</li>
-                <li>
-                  Diabetes Type 2 and its complications like neuropathy,
-                  nephropathy, diabetic food, etc. in early stages
-                </li>
-                <li>
-                  Kidney Problem: acute and chronic kidney diseases, nephritis
-                  and pylonephritis
-                </li>
-                <li>
-                  Cancers: Breast Cancer, Liver Cancer, prostate Cancer, etc.
-                </li>
-                <li>
-                  Skin Disorders: Eczema, Dermatisis, Acanthosis nigricans,
-                  acute and chronic Urticaria, all types of Psoriasis, Tenia,
-                  Acne, Vitiligo(Leucoderma), etc.
-                </li>
-                <li>
-                  Infertility: Male Infertility, Oligospermia, Erectile
-                  Dysfunction, Female Infertility, more than 12,000 couples
-                  infertility cases treated successfully. Irregular Menses,
-                  Dysmenorrhoea, Menorrhagia, Leucorrhoea, PCOD, PCOS, Overian
-                  Cysts, Fibroids, Endometriosis, etc.
-                </li>
-                <li>
-                  GIT: Acid Peptic Disorder, Gastritis, Erosive Gastritis, Lax
-                  Les, Gastroesophageal Reflux Disease, Irritable Bowel
-                  Syndrome, Ulcerative Colitis, Crohn's Disease, Solitary Rectal
-                  Ulcer Syndrome, Peptic Ulcers, Colitis, Cholecystitis, Gall
-                  Bladder Stones, Pancreatitis, etc. Treated thousands of cases
-                  successfully.
-                </li>
-                <li>
-                  Cervical, Thoraic and Lumbar sponsylosis, Disc Prolapse,
-                  Sciatica, Osteoarthritis, Rheumatoid Arthritis, Gout,
-                  Ankylosing Spondylitis, Psoriatic Arthritis, SLE, Myositis,
-                  Seronegative Arthritis and Seropositive Polyarthritis,
-                </li>
-                <li>
-                  Hair Problems: Alopecia Areata, Androgenic Alopecia, Telogen
-                  Effluvium, Trichotillomania, Alopecia Totallis, Alopecia
-                  Universalis, etc
-                </li>
-                <li>
-                  Cardiac Problems: Hypertension, Ischemic Heart Disease,
-                  Cardiomyopathy, Valvular Heart Disease, Arrhythmias, etc.
-                </li>
-                <li>
-                  Urinary Tract: Urinary Tract Infections, Cystitis, Urethritis,
-                  Prostatitis, Benign Prostatic Hyperplasia, Renal Calculi, etc.
-                </li>
-              </ul>
+                PATIENTS TREATED TILL DATE
+              </p>
             </div>
-          </div>
-        </div>
+            
+            
+          </div> -->
 
-        <div class="text-creamy md:px-6 lg:px-12 xl:px-20 w-full">
-          <div
-            class="md:border-b-4 md:border-r-4 md:border-l-4 border-[#FEFAE0] border-solid w-full p-8 flex flex-col gap-8 items-center"
-          >
-            <h1
-              class="max-md:text-xl md:text-2xl lg:text-3xl xl:text-4xl poppins-bold"
-            >
-              Awards and Achievements
-            </h1>
-            <ol
-              class="max-md:text-2xl md:text-xl lg:text-xl xl:text-2xl poppins-regular list-decimal flex flex-col gap-3"
-            >
-              <li>Award 1</li>
-              <li>Award 2</li>
-              <li>Award 3</li>
-              <li>Award 4</li>
-            </ol>
-          </div>
-        </div>
+         
       </div>
+        
+      
     </section>
 
     <section id="Awards" class="p-3 sm:p-5 bg-[#FEFAE0]">
@@ -345,7 +358,7 @@
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
             >
-              Felicitated for serving in homeopathic system
+            Honored for dedicated service in the field of homeopathic medicine.
             </p>
           </div>
           <div class="lg:max-h-[600px] hover:scale-105">
@@ -359,10 +372,10 @@
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
             >
-              Recieving Momento for presentation in
-              <i>
+            Received a memento for presenting on health at the <i>
                 Akhila bharatha Kannada Sahitya Sammelan in Kalaburagi on health
-              </i>
+              </i> in Kalaburagi.
+              
             </p>
           </div>
           <div class="lg:max-h-[600px] hover:scale-105">
@@ -375,9 +388,7 @@
             </div>
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
-            >
-              Felicitated after presentation of scientific paper in
-              International Ayush Conference, Dubai.
+            >Received a felicitation following the presentation of a scientific paper at the International AYUSH Conference in Dubai.
             </p>
           </div>
           <div class="lg:max-h-[600px] hover:scale-105">
@@ -390,16 +401,43 @@
             </div>
             <p
               class="text-xl poppins-regular font-bold text-center pt-3 text-[#606C38]"
-            >
-              Arranged a National Homeopathic Conference in Kalaburagi as a
-              organising Chairman by Swami Vivekanand Homeo Pharma , Kalaburagi
-              in association with HKE's Homeopathic Medical College, Kalaburagi
-              in 2023 Dec.
+            >Served as Organizing Chairman for a National Homeopathic Conference in Kalaburagi, held in December 2023 by Swami Vivekanand Homeo Pharma in collaboration with HKE's Homeopathic Medical College, Kalaburagi.
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- <section id="pharmacy" class="p-3 sm:p-5 bg-[#FEFAE0]">
+      <div class="p-5 sm:p-8 flex gap-10">
+        <div>
+          <h1 class="text-4xl montserrat font-semibold text-[#BC6C25] mb-8">
+            Swami Vivekanand Homeo Pharma
+          </h1>
+          <h1 class="text-4xl montserrat font-semibold text-[#BC6C25] mb-8 ">
+            Products Available:
+            <ul>
+              <li>Dilutions</li>
+              <li>Mother Tinctures</li>
+              <li>Bio-Chemic</li>
+              <li>Bio-Combinations</li>
+              <li>Patents</li>
+              <li>Bachflowers</li>
+              <li>Lower Attenuations</li>
+              <li>Higher Potencies</li>
+              <li>Cosmetics</li>
+              <li>German Remedies</li>
+              <li>Nultraceutricals</li>
+              <li>Food Supplements</li>
+            </ul>
+          </h1>
+        </div>
+        <div>
+          <img src="src/img/pharmacy.jpg" alt="pharmacy-img">
+        </div>
+
+      </div>
+    </section> -->
 
     <section id="gallery" class="p-3 sm:p-5 bg-[#FEFAE0]">
       <div class="p-5 sm:p-8">
@@ -651,29 +689,39 @@
       <div class="p-5 sm:p-8 text-[#FEFAE0]">
         <h1 class="text-4xl poppins-regular font-semibold">Contact Us</h1>
 
-        <form action="mailto:xyz@gmail.com">
+        <form action="https://formsubmit.co/nigga@gmail.com" method="post">
           <div class="flex flex-col md:flex-row gap-10 mt-10">
             <input
               type="text"
               id="name"
               name="name"
               placeholder="Name"
-              class="text-xl flex-1 text-[#BC6C25] p-3 placeholder:montserrat placeholder:text-[#BC6C25] focus:outline-[#BC6C25]"
+              required
+              class="text-xl flex-1 text-black p-3 placeholder:montserrat focus:outline-[#BC6C25] rounded-xl"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+              class="text-xl flex-1 text-black p-3 placeholder:montserrat  focus:outline-[#BC6C25] rounded-xl"
             />
             <input
               type="text"
               id="subject"
               name="subject"
+              required
               placeholder="Subject"
-              class="text-xl flex-1 text-[#BC6C25] p-3 placeholder:montserrat placeholder:text-[#BC6C25] focus:outline-[#BC6C25]"
-            />
+              class="text-xl flex-1 text-black p-3 placeholder:montserrat  focus:outline-[#BC6C25] rounded-xl"/>
           </div>
           <div class="mt-10">
             <textarea
-              name="message"
+              name="Message"
+              required
               id="message"
               rows="10"
-              class="w-full px-5 py-3 placeholder:montserrat placeholder:text-[#BC6C25] focus:outline-[#BC6C25]"
+              class="w-full text-xl text-black px-5 py-3 placeholder:montserrat  focus:outline-[#BC6C25] rounded-xl"
               placeholder="Message"
             ></textarea>
           </div>
@@ -681,7 +729,7 @@
             <input
               type="submit"
               value="Submit"
-              class="bg-[#BC6C25] text-[#FEFAE0] text-xl p-3 cursor-pointer"
+              class="bg-[#BC6C25] text-[#FEFAE0] text-xl p-3 cursor-pointer rounded-3xl"
             />
           </div>
         </form>
@@ -716,19 +764,7 @@
             </h1>
           </div>
         </div>
-        <div class="flex gap-3 justify-center">
-          <img
-            src="src/img/swami vivekananda.webp"
-            class="rounded-3xl self-start w-[40px]"
-          />
-          <div>
-            <h1
-              class="sm:text-xl md:text-xl lg:text-2xl poppins-regular font-semibold"
-            >
-              Swami Vivekanand Homeo pharma
-            </h1>
-          </div>
-        </div>
+        
 
         <div class="flex justify-start flex-col gap-5 mt-8">
           <div class="flex gap-2 items-center">
@@ -737,13 +773,13 @@
               alt="telephone-call-png"
               class="w-[25px]"
             />
-            <p class="montserrat font-semibold max-sm:text-sm">+9112345678</p>
+            <a href="tele:+9112345678" class="montserrat font-semibold max-sm:text-sm">+9112345678</a>
           </div>
           <div class="flex gap-2 items-center">
             <img src="src/img/mail.png" alt="email-png" class="w-[25px]" />
-            <p class="montserrat font-semibold max-sm:text-sm">
+            <a href="mailto:dr.sspatilhompath@gmail.com" class="montserrat font-semibold max-sm:text-sm">
               dr.sspatilhompath@gmail.com
-            </p>
+            </a>
           </div>
           <div class="flex gap-2 items-center">
             <img
@@ -760,7 +796,7 @@
 
         <div class="flex gap-5 mt-8 justify-center">
           <div>
-            <a href="#"
+            <a href="https://www.facebook.com/Drsspatilm?rdid=kPmZH6EEdrfidMUs&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FvWWAvTU1xX6y2zCF%2F"
               ><img
                 src="src/img/facebook.png"
                 alt="facebook png"
