@@ -658,10 +658,6 @@ video {
   z-index: 10;
 }
 
-.col-span-1{
-  grid-column: span 1 / span 1;
-}
-
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -710,6 +706,26 @@ video {
   height: 100%;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
+.max-h-\[500px\]{
+  max-height: 500px;
+}
+
+.max-h-\[200px\]{
+  max-height: 200px;
+}
+
+.max-h-\[250px\]{
+  max-height: 250px;
+}
+
+.max-h-\[300px\]{
+  max-height: 300px;
+}
+
 .w-\[18px\]{
   width: 18px;
 }
@@ -730,20 +746,32 @@ video {
   width: 100%;
 }
 
-.w-\[40\%\]{
-  width: 40%;
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .min-w-\[300px\]{
   min-width: 300px;
 }
 
-.max-w-\[400px\]{
-  max-width: 400px;
+.min-w-\[200px\]{
+  min-width: 200px;
 }
 
-.max-w-\[600px\]{
-  max-width: 600px;
+.min-w-\[250px\]{
+  min-width: 250px;
+}
+
+.min-w-\[450px\]{
+  min-width: 450px;
+}
+
+.min-w-\[350px\]{
+  min-width: 350px;
 }
 
 .flex-1{
@@ -758,16 +786,20 @@ video {
   list-style-type: disc;
 }
 
+.auto-rows-\[1fr\]{
+  grid-auto-rows: 1fr;
+}
+
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -926,6 +958,11 @@ video {
   padding: 1.25rem;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -964,21 +1001,6 @@ video {
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .pr-2{
@@ -1103,6 +1125,18 @@ video {
 }
 
 @media not all and (min-width: 1280px){
+  .max-xl\:max-h-\[300px\]{
+    max-height: 300px;
+  }
+
+  .max-xl\:max-w-\[300px\]{
+    max-width: 300px;
+  }
+
+  .max-xl\:flex-col{
+    flex-direction: column;
+  }
+
   .max-xl\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1118,8 +1152,20 @@ video {
     display: none;
   }
 
+  .max-lg\:max-h-\[300px\]{
+    max-height: 300px;
+  }
+
   .max-lg\:w-\[500px\]{
     width: 500px;
+  }
+
+  .max-lg\:max-w-\[300px\]{
+    max-width: 300px;
+  }
+
+  .max-lg\:flex-col{
+    flex-direction: column;
   }
 
   .max-lg\:text-center{
